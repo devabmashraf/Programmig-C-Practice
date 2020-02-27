@@ -1,0 +1,74 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("My salary is %d taka.\n", 1000000);
+    printf("%d+%d=%d\n",10,5,200);
+    
+    printf("The hash chracter is:%c\n","#");
+    printf("My height: %f feet and weight:%d kg.\n",5.10,60);
+    
+    int x = 10;
+    int y = 20;
+    printf("%d+%d=%d\n",x,y,x+y);
+    x=x*y-20;
+    printf("Final value of x is %d\n",x);
+    
+    int a;
+    int b;
+    a = 10;
+    b = 40;
+    printf("%d\n", a+b);
+    printf("%d\n",a*b);
+    
+    char ch;
+    ch = 'x';
+    printf("%c\n",ch);
+    ch = '&';
+    printf("%c\n",ch);
+    
+    float m;
+    m = 5.5;
+    float n;
+    n = 4.4;
+    printf("Addition: %f\n",(m+n));
+    
+    int p,q,r;
+    p = 3;
+    q = 4;
+    r = p * q;
+    printf("%d\n",r);
+    
+    int c;
+    int d;
+    c=10;
+    d=3;
+    printf("Result is: %d\n",c+d);
+    int e;
+    int f;
+    e=10;
+    f=3;
+    printf("Result is: %d\n",e/f);
+    int g;
+    int h;
+    g=10;
+    h=3;
+    printf("Result is: %d\n",g%h);
+        int z;
+        z=34534523;
+        printf("%d\n",z);
+        printf("size of int in my computer: %d\n",sizeof(int));
+#include<limits.h> 
+        printf("The maximum value of INT=%d\n",INT_MAX);
+        printf("The minimum value of INT=%d\n",INT_MIN);
+        printf("The maximum value of LONG=%ld\n",LONG_MAX);
+        printf("The minimum value of LONG=%ld\n",LONG_MIN);
+        
+
+printf("The End for Today Date:27 February,2020");
+        
+  
+        
+    
+    return 0;
+}
